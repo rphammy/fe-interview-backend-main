@@ -1,0 +1,19 @@
+.starred-count {
+  border-radius: 8px;
+  margin: 16px;
+  width: auto;
+  background-color: #ff5b60;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: AvenirNext, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: space-around;
+  line-height: 24px;
+  padding: 10px 16px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
