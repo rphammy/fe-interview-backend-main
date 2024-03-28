@@ -24,6 +24,18 @@ yarn start:api
 
 This will create a locally hosted backend that you can access at `http://localhost:3001`
 
+### Author's Notes
+Hello! Here is my project that searches through companies and displays results. I also threw in a counter/button that would show or unshow the results when you click on it. 
+Most of the code lies in `src/pages/HomePage` instead of a components folder. I went with this structure because I always find that `components` folders get way too big. I usually put shared code or code not relating to a page or feature in `components` folders, and since this code all had to do with a single page, most of the code lives there. 
+
+I also used typescript for this project, I find that i can usually debut faster with it!
+
+I also added a provider to prevent prop drilling, and service to extract the api handling.
+
+I was hoping to add a test or two for you all to see my understanding of react testing frameworks but ran out of time to implement them (ran into dependency issues with babel x jest x react-scripts)
+
+Enjoy!
+
 ### Data models
 
 This database will create a random collection of fake Companies for you to connect your app to. The data is re-generated each time you start the server.
